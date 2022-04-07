@@ -1,3 +1,9 @@
+body{
+    background-image: url("image/dummy.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
 .container {
     width: 960px;
     margin: 0 auto;
@@ -26,7 +32,7 @@
     background: grey;
 }
 .left{
-    width: 150px;
+    width: 165px;
     min-height: 300px;
     /* float:left; */
     display: flex;
@@ -42,6 +48,7 @@
 }
 .middle{
     min-height: 600px;
+    padding: 24px 0 18px 0;
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
@@ -54,7 +61,7 @@
     padding-left: 10px;
 }
 .img7{
-    width: 150px;
+    width: 165px;
     height: 150px;
      align-self: flex-end;
     /* position: absolute;
@@ -69,20 +76,67 @@
 .container-div6{
     width: 800px;
     background-color: cornflowerblue;
-    min-height: 300px;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    /* min-height: 300px; */
+    margin-bottom: 25px;
     /* padding: 20px; */
     /* display: flex;
     justify-content: flex-start; */
 }
 .container-div89{
-    height: 170px;
+    height: 220px;
     background: darkblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .img6{
     width: 139px;
     height: 150px;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 25px;
+}
+.div8{
+    height: 220px;
+    background: cadetblue;
+    width: 360px;
+}
+.div9{
+    height: 220px;
+    width: 360px;
+    background: cadetblue;
+}
+.footer{
+    border: 1px solid gold;
+    height: 224px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0 18px 0;
+}
+.div10{
+    width: 300px;
+    height: 200px;
+    background-color: darkgoldenrod;
+}
+.div11{
+    width: 300px;
+    height: 200px;
+    background-color: darkgoldenrod;
+}
+.container-div1213{
+    width: 300px;
+    height: 200px;
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.div12{
+    height: 85px;
+    background: deepskyblue;
+    width: 300px;
+}
+.div13{
+    height: 85px;
+    width: 300px;
+    background: deepskyblue;
 }

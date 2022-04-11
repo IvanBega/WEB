@@ -77,7 +77,7 @@ body{
     margin-bottom: -20px; */
 }
 .div5{
-    width: 750px;
+    width: 732px;
     height: 200px;
     /* background-c olor: aqua; */
     padding-left: 18px;
@@ -139,20 +139,17 @@ body{
 .container-div1213{
     width: 300px;
     height: 200px;
-    background-color: darkgoldenrod;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 .div12{
     height: 85px;
-    background: deepskyblue;
     width: 300px;
 }
 .div13{
     height: 85px;
     width: 300px;
-    background: deepskyblue;
 }
 .underlined{
     text-decoration: underline;
@@ -160,7 +157,32 @@ body{
 #ul-none{
     list-style-type: none;
 }
+#ul-div11{
+    list-style-type: square;
+}
+#p-div2{
+	margin: 18px;
+}
+#ul-div10{
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+    list-style-type: none;
+}
 .bottom-text{
     position: absolute;
     bottom: 0px;
+}
+.light-color{
+	background: Gainsboro;
+}
+.dark-color{
+	background: Gray;
+	color: white;
+}
+.big-text{
+	font-size: 30px;
+}
+a{
+    color:inherit;
 }

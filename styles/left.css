@@ -1,0 +1,25 @@
+.left{
+    width: 165px;
+    min-height: 300px;
+    /* float:left; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.div4{
+    min-height: 250px;
+    height: auto;
+    /* background: antiquewhite; */
+    margin-bottom: 50px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.img7{
+    width: 165px;
+    height: 150px;
+     align-self: flex-end;
+    /* position: absolute;
+    bottom: 0px;
+    margin-bottom: -20px; */
+}

@@ -23,10 +23,6 @@ body{
     list-style-type: none;
 }
 
-#p-div2{
-	margin: 18px;
-}
-
 .bottom-text{
     position: absolute;
     bottom: 0px;

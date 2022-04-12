@@ -1,6 +1,6 @@
 .footer{
     border: 1px solid gold;
-    height: 224px;
+    /* height: 224px; */
     display: flex;
     justify-content: space-between;
     padding: 24px 0 18px 0;
@@ -19,6 +19,9 @@
 .div12, .div13{
     height: 85px;
     width: 300px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
 }
 #ul-div10{
 	columns: 2;

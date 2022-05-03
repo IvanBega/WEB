@@ -1,0 +1,43 @@
+.center{
+    width: 750px;
+	border: 1px solid black;
+}
+form{
+    width: 675px;
+    margin-right: 50px;
+}
+.text {
+    color:white;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #CC6666;
+    /* transition: all 0.3s; */
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    /* box-sizing: border-box; */
+    outline: 0;
+    max-width: 700px;
+    max-height: 400px;
+}
+.send {
+    background: #CC6666;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: bold;
+    width: 700px;
+}
+.gray-div {
+    background: gray;
+    width: 760px;
+    height: 600px;
+}
+::placeholder {
+    color: white;
+}

@@ -1,7 +1,6 @@
 .left{
     width: 165px;
     min-height: 300px;
-    /* float:left; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,7 +18,4 @@
     width: 165px;
     height: 150px;
      align-self: flex-end;
-    /* position: absolute;
-    bottom: 0px;
-    margin-bottom: -20px; */
 }
